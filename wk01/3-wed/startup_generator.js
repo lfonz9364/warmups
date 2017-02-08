@@ -17,16 +17,15 @@ var thatArray = ["Facebook Platform","Erlang Enthusiasts","Ex-Girlfriends",
 "Surgeons","Pounding Jagger Bombs","Textbooks","Coffee Shops","Baristas"];
 
 function returnIdea () {
+  var min = 0;
+  var thatMax = thatArray.length;
+  var thisMax = thisArray.length;
 
     function getRandomIndexThisArray () {
-      var min = 0;
-      var thisMax = thisArray.length;
       return Math.floor(Math.random() * (thisMax - min) + min);
     }
 
     function getRandomIndexThatArray () {
-      var min = 0;
-      var thatMax = thatArray.length;
       return Math.floor(Math.random() * (thatMax - min) + min);
     }
     alert(thisArray[getRandomIndexThisArray()] + ' ' + thatArray[getRandomIndexThatArray()]);
