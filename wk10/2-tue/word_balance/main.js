@@ -34,4 +34,4 @@ function genAlphabet(charA, charZ){
 
 function getSum(total, num){
   return total + num;
-}
+};
