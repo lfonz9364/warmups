@@ -1,0 +1,14 @@
+<form action="/pokemon/show" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <label>Species</label>
+  <input type="text" name="species">
+
+  <label>Nickname</label>
+  <input type="text" name="nickname">
+
+  <label>Level</label>
+  <input type="text" name="level">
+
+  <button>create</button>
+</form>
+<a href="/pokemon/show">Cancel</a>

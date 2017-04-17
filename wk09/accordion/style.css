@@ -1,0 +1,8 @@
+h2{
+  display: inline;
+}
+
+.arrow{
+  display: inline-block;
+  transform:rotate(-90deg);
+}
